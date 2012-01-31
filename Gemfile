@@ -7,6 +7,9 @@ gem 'rails', '3.0.1'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
+gem 'mongoid', '~>2.2.5'
+gem 'bson_ext','~>1.5'
+
 group :development, :test do
     gem 'rake', '0.8.7'
     gem 'rdoc', '3.12'

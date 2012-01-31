@@ -17,6 +17,7 @@ group :development, :test do
     gem 'database_cleaner'
     gem 'factory_girl_rails'
     gem 'mongoid-rspec'
+#    gem 'webrat', '0.7.1'
 end
 
 # Use unicorn as the web server
@@ -38,5 +39,5 @@ end
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 # group :development, :test do
-#   gem 'webrat'
+  
 # end
